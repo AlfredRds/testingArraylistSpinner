@@ -22,11 +22,11 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<pruebaModel> al = new ArrayList<pruebaModel>();
 
         al.add(new pruebaModel(1,"marte"));
-        al.add(new pruebaModel(1,"urano"));
-        al.add(new pruebaModel(1,"venus"));
-        al.add(new pruebaModel(1,"mercurio"));
-        al.add(new pruebaModel(1,"sol"));
-        al.add(new pruebaModel(1,"luna"));
+        al.add(new pruebaModel(2,"urano"));
+        al.add(new pruebaModel(3,"venus"));
+        al.add(new pruebaModel(4,"mercurio"));
+        al.add(new pruebaModel(5,"sol"));
+        al.add(new pruebaModel(6,"luna"));
 
         adapter= new SpinAdapter(getApplicationContext(), android.R.layout.simple_spinner_item,al);
         sp.setAdapter(adapter);
